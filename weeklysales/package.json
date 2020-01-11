@@ -1,0 +1,29 @@
+{
+  "name": "weeklysales",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env DB_ENV=testing jest --watchAll --runInBand",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "author": "JarredStanford",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-jwt": "^5.3.1",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}
